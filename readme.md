@@ -18,7 +18,7 @@ Most of this code requires some data from files or from DB. Unfortunately I cann
 
 ## ML Tasks
 
-- [distilbertSimple.py](https://github.com/alexturyev/ml_snippets_2022/distilbertSimple.py)
+- [distilbertSimple.py](https://github.com/alexturyev/ml_snippets_2022/main/distilbertSimple.py)
 Task:
 Large list of categorized sentences from around 50 categories from a database. Need to train a model to help categorize new sentences.
 
@@ -28,7 +28,7 @@ First using label encoder, then tokenizing with Bert and finally using a basic L
 Result:
 I got every good results with this one. Training took a while, but its pretty awesome.
 
-- [fastTextClassifier.py](https://github.com/alexturyev/ml_snippets_2022/fastTextClassifier.py)
+- [fastTextClassifier.py](https://github.com/alexturyev/ml_snippets_2022/main/fastTextClassifier.py)
 Task:
 Large list of categorized sentences from around 50 categories from a file. Need to train a model to help categorize new sentences.
 
@@ -38,7 +38,7 @@ Using the whole FastText approach to train and predict.
 Result:
 Not so great. It kinda worked, but not sure if requires more tweaking. I could spend more time on this...
 
-- [multilabelClassifier.py](https://github.com/alexturyev/ml_snippets_2022/multilabelClassifier.py)
+- [multilabelClassifier.py](https://github.com/alexturyev/ml_snippets_2022/main/multilabelClassifier.py)
 Task:
 Text sentences are assigned multiple categories. Need to train with a fairly small dataset (20-50 per category) and test multi label (non exclusive) categorization.
 
@@ -49,7 +49,7 @@ Result:
 I didn't get amazing results, but I was surprised by how accurate it was with such a basic approach. It would be cool to compare different vectorizers (glove, fasttext, word2vec) or even bert.
 
 
-- [waveTranscribe.py](https://github.com/alexturyev/ml_snippets_2022/waveTranscribe.py)
+- [waveTranscribe.py](https://github.com/alexturyev/ml_snippets_2022/main/waveTranscribe.py)
 Task:
 List of audio files need to be transcribed using the latest SotA method
 
