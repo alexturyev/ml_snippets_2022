@@ -13,6 +13,9 @@ This is my small list of quick working snippets of various Machine Learning appr
 - transformers 4.15.0
 - GPU not required. Most of my testing was done with CPU since all of my testing is inference
 
+## How to run
+Most of this code requires some data from files or from DB. Unfortunately I cannot provide these, because it contains real production data. The code is really simple, so you can go through it and modify it to suit your needs. If you have any questions - feel free to contact me by raising an issue.
+
 ## Examples
 
 - [distilbertSimple.py](https://github.com/alexturyev/ml_snippets_2022/distilbertSimple.py)
